@@ -10,6 +10,7 @@ Employee attrition is a major challenge for organizations.
 This project builds a machine learning pipeline to identify key drivers of attrition and predict which employees are at risk of leaving.
 
 The workflow includes:
+
 	•	Exploratory Data Analysis (EDA)
 	•	Feature engineering
 	•	Model training (Logistic Regression, Decision Tree, Random Forest)
@@ -19,12 +20,14 @@ The workflow includes:
 The Random Forest model emerged as the champion model with strong generalization on test data.
 
 🎯 Business Objective
+
 	•	Understand patterns behind employee turnover
 	•	Identify the key factors that influence attrition
 	•	Provide HR with data-driven insights
 	•	Build an ML model that predicts employee attrition risk
 
   🧠 Key Insights from EDA
+  
 	•	Overwork strongly drives attrition — high monthly hours = high risk
 	•	Employees handling 7 projects always left
 	•	Tenure between 2–4 years shows the highest turnover risk
@@ -50,6 +53,7 @@ Tuned with GridSearchCV (refit = ROC-AUC)
 
 
 🔧 Feature Engineering
+
 	•	Removed potential leakage features (e.g., satisfaction level)
 	•	Created a new binary feature: overworked
 	•	True if monthly hours > 175
@@ -58,6 +62,7 @@ Tuned with GridSearchCV (refit = ROC-AUC)
 	•	Standard preprocessing pipeline
 
 📦 Tech Stack
+
 	•	Python
 	•	Pandas, NumPy
 	•	Scikit-learn
@@ -66,6 +71,7 @@ Tuned with GridSearchCV (refit = ROC-AUC)
   📝 Results
 
 The final Random Forest model can effectively identify high-risk employees and provide HR with insight-driven recommendations such as:
+
 	•	Monitor early-tenure employees (2–4 years)
 	•	Intervene for overworked staff
 	•	Track promotion stagnation
