@@ -38,18 +38,18 @@ The Random Forest model emerged as the champion model with strong generalization
 
 ✔ Logistic Regression
 
-Baseline classifier to understand linear relationships.
+- Baseline classifier to understand linear relationships.
 
 ✔ Decision Tree
 
-Interpretable model used to understand decision rules.
+- Interpretable model used to understand decision rules.
 
 ✔ Random Forest
 
-Tuned with GridSearchCV (refit = ROC-AUC)
-✔ Best performance on validation & test sets
-✔ Strong generalization
-✔ Selected as the champion model
+- Tuned with GridSearchCV (refit = ROC-AUC)
+- ✔ Best performance on validation & test sets
+- ✔ Strong generalization
+- ✔ Selected as the champion model
 
 
 🔧 Feature Engineering
