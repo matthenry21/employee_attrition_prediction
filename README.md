@@ -26,7 +26,8 @@ The Random Forest model emerged as the champion model with strong generalization
 	•	Provide HR with data-driven insights
 	•	Build an ML model that predicts employee attrition risk
 
-	📂 Dataset Source
+	
+📂 Dataset Source
 
 This project uses the publicly available HR Analytics and Job Prediction dataset from Kaggle.
 
